@@ -6,7 +6,7 @@ as3dpad is a virtual gamepad designed for Adobe AIR mobile. You can develop a iO
 ![Explain02](https://sites.google.com/site/ducklegflash/as3dpad/explain02.jpg?attredirects=0)
 
 
-## Features:
+## Features
 
 - X and Y-axis
 - A, B, C and D Buttons
