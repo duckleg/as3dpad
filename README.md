@@ -2,8 +2,8 @@ as3dpad
 =======
 as3dpad is a virtual gamepad designed for Adobe AIR mobile. You can develop a iOS/Android game and receive user data from the touch screen. X and Y axis data will be represented to “UP”, “DOWN”, “LEFT”, “RIGHT” and a radians.
 
-![Explain01](https://sites.google.com/site/ducklegflash/as3dpad/explain01.jpg?attredirects=0)
-![Explain02](https://sites.google.com/site/ducklegflash/as3dpad/explain02.jpg?attredirects=0)
+![Explain01](https://sites.google.com/site/ducklegflash/as3dpad/explain01.jpg)
+![Explain02](https://sites.google.com/site/ducklegflash/as3dpad/explain02.jpg)
 
 
 ## Features
@@ -73,11 +73,11 @@ private function touchReleaseBHandler(event:DPadEvent):void{
 - example04_touch9Grid [demo](https://sites.google.com/site/ducklegflash/as3dpad/example04_touch9grid)
 - example05_starling [demo](https://sites.google.com/site/ducklegflash/as3dpad/example05_starling)
 
-[![Launch Examples](https://sites.google.com/site/ducklegflash/as3dpad/ex01.jpg?attredirects=0)](https://sites.google.com/site/ducklegflash/as3dpad/example01_basic)
-[![Launch Examples](https://sites.google.com/site/ducklegflash/as3dpad/ex02.jpg?attredirects=0)](https://sites.google.com/site/ducklegflash/as3dpad/example02_custom_ui)
-[![Launch Examples](https://sites.google.com/site/ducklegflash/as3dpad/ex03.jpg?attredirects=0)](https://sites.google.com/site/ducklegflash/as3dpad/example03_double_axispad)
-[![Launch Examples](https://sites.google.com/site/ducklegflash/as3dpad/ex04.jpg?attredirects=0)](https://sites.google.com/site/ducklegflash/as3dpad/example04_touch9grid)
-[![Launch Examples](https://sites.google.com/site/ducklegflash/as3dpad/ex05.jpg?attredirects=0)](https://sites.google.com/site/ducklegflash/as3dpad/example05_starling)
+[![Launch Examples](https://sites.google.com/site/ducklegflash/as3dpad/ex01.jpg)](https://sites.google.com/site/ducklegflash/as3dpad/example01_basic)
+[![Launch Examples](https://sites.google.com/site/ducklegflash/as3dpad/ex02.jpg)](https://sites.google.com/site/ducklegflash/as3dpad/example02_custom_ui)
+[![Launch Examples](https://sites.google.com/site/ducklegflash/as3dpad/ex03.jpg)](https://sites.google.com/site/ducklegflash/as3dpad/example03_double_axispad)
+[![Launch Examples](https://sites.google.com/site/ducklegflash/as3dpad/ex04.jpg)](https://sites.google.com/site/ducklegflash/as3dpad/example04_touch9grid)
+[![Launch Examples](https://sites.google.com/site/ducklegflash/as3dpad/ex05.jpg)](https://sites.google.com/site/ducklegflash/as3dpad/example05_starling)
 
 (Click the image to see some demos. Be patient, no preloader!)
 
