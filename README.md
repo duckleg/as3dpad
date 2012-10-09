@@ -12,6 +12,7 @@ as3dpad is a virtual gamepad designed for Adobe AIR mobile. You can develop a iO
 - A, B, C and D Buttons
 - custom UI
 - key mapping for development on desktop (WASD + m,./)
+- high performance for rendering (For cpu, gpu and direct)
 - available with stage3d (e.g.: Starling, Away3D, Alternativa3D...)
 
 ## What does work
