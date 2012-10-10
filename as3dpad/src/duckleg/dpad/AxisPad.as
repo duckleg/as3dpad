@@ -219,28 +219,20 @@ package duckleg.dpad
 			var release:Boolean = false;
 			switch(keyCode){
 				case _leftKeycode:
-					if(_value&LEFT){
-						_value -= LEFT;
-						release = true;
-					}
+					_value &= ~LEFT;
+					release = true;
 					break;
 				case _rightKeycode:
-					if(_value&RIGHT){
-						_value -= RIGHT;
-						release = true;
-					}
+					_value &= ~RIGHT;
+					release = true;
 					break;
 				case _upKeycode:
-					if(_value&UP){
-						_value -= UP;
-						release = true;
-					}
+					_value &= ~UP;
+					release = true;
 					break;
 				case _downKeycode:
-					if(_value&DOWN){
-						_value -= DOWN;
-						release = true;
-					}
+					_value &= ~DOWN;
+					release = true;
 					break;
 			}
 			

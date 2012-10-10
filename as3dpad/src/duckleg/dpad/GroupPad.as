@@ -114,7 +114,7 @@ package duckleg.dpad
 				if(_buttons[i].touchPointID==touchPointID){
 					// <----- reset variable
 					_buttons[i].touchPointID = -1;
-					_value -= _value&_buttons[i].id?_buttons[i].id:0;
+					_value &= ~_buttons[i].id;
 					
 					// <----- dispatch event
 					switch(_buttons[i].id){
@@ -204,7 +204,7 @@ package duckleg.dpad
 					if(_value&A_BUTTON){
 						// <----- set variable
 						button = findGroupButton(A_BUTTON);
-						_value -= A_BUTTON;
+						_value &= ~A_BUTTON;
 						
 						// <----- change UI
 						if(button!=null)
@@ -218,7 +218,7 @@ package duckleg.dpad
 					if(_value&B_BUTTON){
 						// <----- set variable
 						button = findGroupButton(B_BUTTON);
-						_value -= B_BUTTON;
+						_value &= ~B_BUTTON;
 						
 						// <----- change UI
 						if(button!=null)
@@ -232,7 +232,7 @@ package duckleg.dpad
 					if(_value&C_BUTTON){
 						// <----- set variable
 						button = findGroupButton(C_BUTTON);
-						_value -= C_BUTTON;
+						_value &= ~C_BUTTON;
 						
 						// <----- change UI
 						if(button!=null)
@@ -246,7 +246,7 @@ package duckleg.dpad
 					if(_value&D_BUTTON){
 						// <----- set variable
 						button = findGroupButton(D_BUTTON);
-						_value -= D_BUTTON;
+						_value &= ~D_BUTTON;
 						
 						// <----- change UI
 						if(button!=null)
