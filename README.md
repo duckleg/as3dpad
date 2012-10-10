@@ -83,7 +83,7 @@ private function touchReleaseBHandler(event:DPadEvent):void{
 
 ## Download
 
-SWC Library - [as3dpad.swc](http://test.com)
+SWC Library - [as3dpad.swc](https://github.com/duckleg/as3dpad/tree/master/as3dpad/bin)
 
 ## License
 
