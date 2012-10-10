@@ -81,9 +81,11 @@ private function touchReleaseBHandler(event:DPadEvent):void{
 
 (Click the image to see some demos. Be patient, no preloader!)
 
-## License
+## Download
 
-as3dpad - an entity framework for Actionscript
+SWC Library - [as3dpad.swc](http://test.com)
+
+## License
 
 Copyright (C) 2012 Marco Wong, http://flash-adobe.blogspot.hk/
 
